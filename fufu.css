@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(
+        to right,
+        rgb(80, 80, 0) 0%,
+        rgb(80, 80, 0) 40%,
+        white 40%,
+        white 100%
+    );
+    font-family: 'Times New Roman';
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0px 80px;
+    font-weight: bold;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+li a{
+    color: rgb(80,80,0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    font-family: arial;
+    font-weight: bold;
+    
+}
+a.active,a:hover{
+    background: rgb(230, 230, 164);;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+@media (max-width: 925px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+.load{
+    padding-top: 2%;
+}
+#shoes{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    padding-left: 20%;
+    padding-top: 0%;
+    font-family: times new roman;
+    font-size: 20vh;
+    color: rgb(230, 230, 164);
+}
+#men{
+    float: right;
+    padding-right: 15%;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(230, 230, 164);
+}
+.good{
+    float: right;
+    padding-top: 18px;
+    color: rgb(109, 109, 1);
+}
+#star{
+    font-size: 20px;
+}
+#air{
+    font-family: arial;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 90px;
+}
+#smallair{
+    font-family: arial;
+    font-size: 20px;
+}
+#price{
+    font-family: arial;
+    font-weight:bold;
+    font-size: 40px;
+}
+#image{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    height: 65%;
+
+}
+#circle{
+    position: absolute;
+    top: 38%;
+    left: 53%;
+    font-size: 400px;
+    color: rgb(80,80,0);
+}
+.button{
+    padding-left: 42%;
+    border: none;
+    padding-top: 0%;
+    
+}
+#red{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: red;
+    margin-right: 5px;
+}
+#yellow{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(80, 80, 0);
+    color: rgb(80, 80, 0);
+    margin-right: 5px
+}
+#blue{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 46);
+    color: rgb(0, 0, 46);
+    margin-right: 5px
+}
+#green{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 41, 0);
+    color: rgb(0, 41, 0);   
+    margin-right: 5px
+}
+#headcolour{
+    padding-left: 43.5%;
+    font-family: arial;
+    font-size: 18px;
+}
+#add{
+    float: right;
+    padding: 4px 20px;
+    background-color: rgb(109, 109, 1); ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.footer{
+    padding-left: 42%;
+    margin-top: 15px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(80, 80, 0);
+
+}
+#size{
+    padding-left: 3%;
+    font-size: 11px;
+}
+#bigsize{
+    width: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #8888;
+    border: none;
+}
+#quantity{
+    position: absolute;
+    top: 93%;
+    left: 52%;
+    font-size: 11px;
+}
+#big{
+    position: absolute;
+    top: 95%;
+    left: 51.5%;
+    width: 70px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px 6px #8888;
+}
+#f1{
+    position: absolute;
+    left: 5%;
+    width: 100px;    
+}
+#f2{
+    position: absolute;
+    left: 25%;
+    width: 100px;
+}
+#f3{
+    position: absolute;
+    left: 50%;
+    width: 100px;
+}
+#f4{
+    position: absolute;
+    left: 70%;
+    width: 100px;
+}

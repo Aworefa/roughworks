@@ -1,0 +1,29 @@
+*{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(39, 37, 37); 
+    font-family: 'Arial Narrow'; 
+}
+.center{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    padding: 12px 18px;
+    border: 2px solid aqua;
+    color: white;
+}
+#input{
+    padding-right: 35%;
+    background-color:rgb(39, 37, 37)  ;
+    border: none;
+    border-bottom: 1px solid white ;
+}
+#in{
+    background-color: aqua;
+    padding: 3% 42%;
+    border: none;
+    border-radius: 3px;
+}

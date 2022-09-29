@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>learn Javascript</title>
+    <link href="learn.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- onLoad ="checkForPopBlocker();" -->
+    <p>new work in js</p>
+
+
+    <div id="about">When the user clicks the link, you don't want a new webpage to be loaded in this case, so,
+        instead of a URL, you place a # inside the quotation marks. This tells the browser to
+        reload the current page.
+        onClick= says, "When the button is clicked, execute the following JavaScript." onClick
+        isn't case-sensitive. You could write onclick, ONCLICK, or OnClIcK and it would work.
+        But the convention is onClick, so we'll stick with that.
+        A JavaScript statement (or more than one), enclosed in quotes, follows. When the user
+        clicks the link, it executes.
+        One more thing to notice: onClick="alert('Hi');" The message inside the parens is
+        surrounded by single quotes, not the double quotes we've been using for an alert string. In
+        JavaScript code, you aren't allowed to nest double quotes within double quotes or single
+        quotes within single quotess. Since the entire JavaScript statement is enclosed in double
+        quotes, you have to enclose the alert message in single quotes.
+        But there's a problem with the markup above.When the user clicks the link, you don't want a new webpage to be
+        loaded in this case, so,
+        instead of a URL, you place a # inside the quotation marks. This tells the browser to
+        reload the current page.
+        onClick= says, "When the button is clicked, execute the following JavaScript." onClick
+        isn't case-sensitive. You could write onclick, ONCLICK, or OnClIcK and it would work.
+        But the convention is onClick, so we'll stick with that.
+        A JavaScript statement (or more than one), enclosed in quotes, follows. When the user
+        clicks the link, it executes.
+        One more thing to notice: onClick="alert('Hi');" The message inside the parens is
+        surrounded by single quotes, not the double quotes we've been using for an alert string. In
+        JavaScript code, you aren't allowed to nest double quotes within double quotes or single
+        quotes within single quotess. Since the entire JavaScript statement is enclosed in double
+        quotes, you have to enclose the alert message in single quotes.
+        But there's a problem with the markup above. </div>
+    <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+    <button><a href="#about" onClick="alert('Hi');">Click</a></button>
+    <a href="JavaScript:void(0)" onClick="var greet='hello'; alert(greet);">Click</a>
+    <a href="JavaScript:void(0)" onclick="popup()">new button</a>
+    <input type="button" value="Click" onClick="alert('Hello world!');">
+
+    <img src="../bluetooth file/rew.png" onMouseover="src='../bluetooth file/new work.png'">
+    <!-- <h1 onMouseover="alert('Be sure to get your shopping done today.' );" onmouseout="alert('')">World Ends Tomorrow</h1> -->
+    <p id="loris" onMouseover="expand()">Slow Loris: Mouse over for more info</p>
+    <img src="../bluetooth file/rew.png" onMouseover="src='../bluetooth file/new work.png'"
+        onMouseout="src='../bluetooth file/rew.png'">
+    <img src="../bluetooth file/rew.png" onMouseover="src='../bluetooth file/new work.png'"
+        onMouseout="src='../bluetooth file/rew.png'">
+    Email:<br> <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';">
+    <form onSubmit="checkAddress('email');">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+    </form>
+    <p>changing </p>
+    <input id="load" type="button" value="submit" onclick="loading()">
+
+    <form>
+        ZIP:<br>
+        <input type="text" id="zip" onBlur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form>
+
+    <p id="slowLoris">
+        Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="javascript:void(0);" onClick="expandLoris()"><em>Click for more.</em></a>
+    </p>
+    <div id="listLoris" onclick="placeAsList()">place a list</div>
+    <img src="../bluetooth file/rew.png" id="image" onclick="invisible()">
+
+    <p id="p1" onmouseover="makeBig()">iugyughjhjfvhgjhhikhjhfgdfhjgyrstfjhuyfrthygtuiyhiuygftds</p>
+
+    <div id="image"><img src="../bluetooth file/rew.png" id="after" onmouseover="after('eId', 'newPic')">
+        <!-- <img src="../bluetooth file/city.jpg" id="sisi" onmouseover="after(eId, newPic)">
+        <img src="../bluetooth file/new work.png" id="bobo" onmouseover="after(eId, newPic)"> -->
+        <h1>gxdg</h1>
+    </div>
+    <a id="link1" onclick="getAddress()">what is google</a>
+
+    <p>This bed is too small.</p>
+    <p>This bed is too big.</p>
+    <p>This bed is just right.</p>
+
+
+
+    <table>
+        <tr>
+            <th>food</th>
+            <th>animal</th>
+            <th>city</th>
+        </tr>
+        <tr>
+            <td>eba</td>
+            <td> eagle</td>
+            <td>enugu</td>
+
+        </tr>
+        <tr>
+            <td>dodo</td>
+            <td>donkey</td>
+            <td>dondo</td>
+        </tr>
+        <tr>
+            <td>akaara</td>
+            <td>ant</td>
+            <td>ado</td>
+        </tr>
+    </table>
+
+    <div id="p2">
+        <p class="special">love in the south</p>
+        <img src="../new nn.jpg">
+        <span style="font-size:24px;"></span>
+    </div>
+    <a id="google">visit me</a>
+
+    <ul>
+        <li>garri</li>
+        <li>eba</li>
+        <li>garri</li>
+        <li> </li>
+        <li> </li>
+    </ul>
+    <button id="gogo" class="baddo">over to you</button>
+    <button id="buhari" onclick="newwebsite()">google</button>
+    <!-- <script src="learn.js"></script> -->
+    <p id="box" style="border: 5px solid; width: 100px; height: 100px;"></p>
+    <a href="pero.html">bad work</a>
+
+    <button id="buhari" onclick="newebsite()">google</button>
+
+    <form onSubmit="return checkForLastName();">
+        Please enter your last name.<br>
+        <input type="text" id="lastNameField">
+        <input type="submit" value="Submit Form">
+        <p id="warning"></p>
+    </form>
+
+    <form onSubmit="return checkForSelection();">
+        <select id="states">
+            <option value="" selected="selected">
+                SELECT A STATE</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+        </select>&nbsp;&nbsp;
+        <input type="submit" value="Submit Form">
+    </form>
+    <form onSubmit="return validateRadios();">
+        <input type="radio" name="r1" value="cat"> Cat<br>
+        <input type="radio" name="r1" value="bat"> Bat<br>
+        <input type="radio" name="r1" value="hat"> Hat<br>
+        <input type="submit" value="Submit Form">
+    </form>
+    <button onclick="greetings()">value</button>
+
+    <form onSubmit="return checkPassword();">
+        Enter a password<br>
+        (8-12 characters, at least 1 number, no spaces)<br>
+        <input type="text" id="f1">
+        <input type="submit" value="Submit">
+        </form>
+    <script src="learnjs.js">
+
+    </script>
+</body>
+
+</html>

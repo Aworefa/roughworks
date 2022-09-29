@@ -1,0 +1,33 @@
+#about{
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 20%;
+    /* position: absolute;
+    top: 1000px;
+    left: 100px; */
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+#p1{
+    font-family: verdana;
+    /* font-size: 1em; */
+}
+.big{
+    font-size: 30px;
+}
+#image{
+    /* display: inline-block; */
+}
+.jumbo{
+    font-weight: bold;
+    background-color: yellow;
+}

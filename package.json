@@ -1,0 +1,23 @@
+{
+  "name": "tobih",
+  "version": "1.0.0",
+  "description": "",
+  "main": "25a.js",
+  "scripts": {
+    "build": "tailwind -i src/styles.css -o public/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aworefa/aworefa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aworefa/aworefa/issues"
+  },
+  "homepage": "https://github.com/Aworefa/aworefa#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}

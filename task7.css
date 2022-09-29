@@ -1,0 +1,151 @@
+body{
+    background-color: white;
+    font-family: calibri;
+}
+.header{
+    text-align: center;
+    padding-left: 60px; 
+}
+.selector{
+    position: relative;
+    left: 23%;
+}
+#f1:hover, #f2:hover{
+    color: blue ;
+    animation-delay: 2ms;
+}
+.header h2{
+    font-size: 30px;
+}
+.header p{
+    font-size: 20px;
+}
+
+.basic{
+    border: 5px solid rgb(145, 145, 145);
+    margin: 20px 0px 20px 50px;
+    padding: 0px 0px 20px 70px;
+    font-size: 18px;
+    
+}
+.head{
+    font-size: 34px ;
+    width: 50%;
+    line-height: 20px;
+    font-weight: bold;
+}
+#head2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.pro{
+    border: 5px solid rgb(0, 0, 255);
+    margin: 20px 0px 20px 50px;
+    padding: 0px 0px 20px 70px;
+    font-size: 18px;
+}
+.enterprise{
+    border: 5px solid rgb(145, 145, 145);
+    margin: 20px 0px 20px 50px;
+    padding: 0px 0px 20px 70px;
+    font-size: 18px;
+}
+.amount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 0px;
+    
+}
+.info1{
+    position:absolute;
+    top: 52%;
+    left: 46%;
+}
+.fa-check {
+    color: green;
+}
+.fa-xmark{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 3px 5px;
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+}
+.dollar{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    position: sticky;
+    background-color: transparent;
+    border: 2px solid rgb(187, 187, 187);
+}
+.button1{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    position: sticky;
+    background-color: rgb(0, 0, 255);
+    border: 2px solid rgb(0, 0, 255);
+    color: white;
+}
+.info2{
+    position:absolute;
+    top: 825px;
+    left: 53%;
+}
+.info3{
+    position:absolute;
+    top: 1300px;
+    left: 53%;
+}
+@media screen and (min-width:600px) {
+    .section{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .info1{
+        position:absolute;
+        top: 43%;
+        left: 13%;
+    }
+    .info2{
+        position:absolute;
+        top: 43%;
+        left: 48%;
+    }
+    .info3{
+        position:absolute;
+        top: 43%;
+        left: 81%;
+    }
+    .button{
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 100px;
+        margin-left: -30px;
+        position: sticky;
+        background-color: transparent;
+        border: 2px solid rgb(187, 187, 187);
+    }
+    .button1{
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 100px;
+        margin-left: -30px;
+        position: sticky;
+        background-color: rgb(0, 0, 255);
+        border: 2px solid rgb(0, 0, 255);
+        color: white;
+    }
+    .selector{
+        display: flex;
+        position: absolute;
+        left: 40%;        
+    }
+}

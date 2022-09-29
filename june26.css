@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+#socks{
+    max-width: 100%;
+
+    margin: auto;
+}
+#red{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+#grey{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+}
+#brown{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+}
+#input{
+    display: flex;
+    flex-direction: row;
+}
+.buttons{
+    align-content: center;
+}
+
+    

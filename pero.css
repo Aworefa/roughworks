@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+}
+.box1{
+    background-image: url("../raw-giant-shrimps-dark-table_1220-4998.jpg");
+    width: 100%;
+    padding: 50px;
+    
+}
+#head{
+    padding: 40px;
+}
+#head2{
+    padding: 40px;
+}
+.button{
+    
+    text-align: center;
+    padding: 10px;
+    height: 10px;
+}
+h3{
+    text-decoration: orange;
+}
+
+.textline{
+    background: url("../download.jpg") no-repeat;
+    padding-left: 40%;
+}
+.button{
+    padding-right: 12%;
+    word-spacing: 0px;
+    border: none;
+}
+#bobo{
+    background: red;
+    padding-left: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid red;
+    padding-right: 4px;
+}
+#bobo2{
+    background: white;
+    padding-right: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid black; 
+    padding-left: 4px;  
+}

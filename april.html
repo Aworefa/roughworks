@@ -1,0 +1,37 @@
+<html>
+ <head>
+   <title>Creating Lists using Javascript</title>
+   <link href="april.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <canvas id="d1">
+      hello world
+  </canvas>
+  <canvas id="d2">bye bye</canvas>
+  <input type="button" value="change color" onclick="changecolor()">
+  <input type="button" value="change text" onclick="changetext()">
+  <input type="button" value="change font" onclick="changefont()">
+
+  <h1 id="myHeader">TO DO List</h1>
+
+<!-- STEPs 1 and 2 below here  -->
+
+ <hr>
+ <input type="button" class="add" value="add" onclick="addTask()"><br>
+ <input type="text" id="input" placeholder="enter text ...">
+
+<ul id="tasks">
+  <li>
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    make todo list
+  </li>
+ </ul>
+<hr>
+<div id="divabout"></div>
+  <input type="button" value="about" onclick="doAbout()">
+  <input type="button" value="clear" onclick="clearAbout()">
+
+   <script src="april.js"></script>
+ </body>
+</html>

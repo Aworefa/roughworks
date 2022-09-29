@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 30px;
+    border-radius: 50%;
+    margin-inline-end: 15px;
+}
+
+.headline {
+    margin-inline-start: -10px;
+
+
+}
+
+main.rating {
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: -20px;
+}
+
+main {
+    display: flex;
+    /* align-content: center; */
+    height: 300px;
+    justify-content: space-evenly;
+    margin-block-start: 100px;
+    /* margin : 80px 80px 50px 50px ; */
+}
+
+.headline h1 {
+    width: 300px;
+    color: rgb(83, 0, 83);
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-block-end: 10px;
+}
+
+.headline p {
+    width: 380px;
+    color: rgb(77, 76, 76);
+}
+
+.stars1,
+.stars2,
+.stars3 {
+    background-color: rgb(236, 211, 236);
+    margin-block-start: 25px;
+    margin-inline-start: -25px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.stars2 {
+    position: relative;
+    left: 25px;
+}
+
+.stars3 {
+    position: relative;
+    left: 50px;
+}
+
+#tu {
+    color: goldenrod;
+    background: inherit;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#section,
+#section1,
+#section2 {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(71, 0, 71, 0.897);
+    padding: 30px 20px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+#imagesandtext {
+    display: flex;
+    margin-block-end: 15px;
+}
+
+#text p:first-child {
+    color: #ffff;
+    font-family: sans-serif;
+}
+
+#text p:nth-child(2) {
+    color: rgb(168, 67, 168);
+    font-family: sans-serif;
+}
+
+#bodytext {
+    color: #ffff;
+    font-family: arial;
+    font-size: 14px;
+}
+
+#section1 {
+    margin-block-start: 25px;
+}
+
+#section2 {
+    margin-block-start: 45px;
+}
+
+@media screen and (max-width:430px) {
+    main {
+        display: block;
+        margin-block-end: 180px;
+        /* text-align: center; */
+        margin-inline-start: 50px
+    }
+
+    img {
+        width: 30px;
+        border-radius: 50%;
+        margin-inline-end: 15px;
+    }
+
+    .stars1,
+    .stars2,
+    .stars3 {
+        background-color: rgb(236, 211, 236);
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 290px;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .headline h1 {
+        text-align: center;
+
+    }
+
+    .headline p {
+        text-align: center;
+        width: 300px;
+    }
+
+    .rating {
+        margin-inline-start: 25px;
+    }
+
+    #tu {
+        display: block;
+    }
+
+    .stars2 {
+        position: initial;
+
+    }
+
+    .stars3 {
+        position: initial;
+        /* left: 50px; */
+    }
+
+    section {
+        display: block;
+        margin-inline-start: 30px;
+    }
+
+    #section1 {
+    margin-block-end: -20px;
+    }
+}
