@@ -1,0 +1,53 @@
+/* body{
+    background-image:  url('./images/mood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body::after{
+    background: black;
+    position: absolute;
+    top: 10%;
+} */
+p{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: aquamarine ;
+}
+section{
+    position: absolute;
+    left: 50%;
+}
+#black{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    z-index: 1;
+}
+@keyframes rotate {
+   0%{
+    transform: rotateZ(0deg);
+   } 
+   25%{
+    transform : rotateZ(90deg)
+   }
+   50%{
+    transform: rotateZ(180deg);
+   }
+   75%{
+    transform: rotateZ(270deg);
+   }
+   100% {
+    transform : rotateZ(360deg)
+   }
+}
+.let:hover{ 
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}

@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.wiggle{
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    padding: 5px 10px;
+    
+}
+.wiggle{
+
+    animation: wiggle 200ms linear infinite running alternate ;
+}
+@keyframes wiggle{
+    from{
+        transform: rotateZ(30deg) ;
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-30deg) 
+    }
+}

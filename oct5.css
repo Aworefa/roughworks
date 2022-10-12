@@ -1,0 +1,80 @@
+.flip{
+    animation-name: flippic;
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+@keyframes flippic {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+}
+#coin{
+    animation-name: flipcoin;
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    /* animation-play-state: running; */
+}
+@keyframes flipcoin {
+    from{
+        transform: rotateY(0deg);
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+        transform: rotateX(360deg);
+    }
+}
+/* @keyframes flipcoin {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+} */
+#togo{
+    display: flex;
+    flex-direction: row;
+}
+#hedoken{
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    background: blue;
+    
+    border-radius: 50%; 
+    animation: shoot 3000ms linear  infinite running;   
+}
+@keyframes shoot{
+    from{
+        transform: translate(0,0);
+    }
+    50%{
+        background: gray;
+        /* transform: translate(100px,-50px); */
+    }
+    to {
+        border: 1px solid gray;
+        transform: translate(1000px, 0px);
+    }
+}
+#bird{
+    animation: birdfly 4000ms linear infinite running alternate ;
+}
+@keyframes birdfly{
+    from{
+        transform: translate(300px,0);
+        
+    }
+    to{
+        transform: translate(0,0);
+        transform: rotateY(180deg);
+
+    }
+}
