@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.good{
+    padding: 5px 10px;
+    margin: auto;
+    width: 100px;
+    color: aqua;
+}

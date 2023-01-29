@@ -98,6 +98,20 @@ body {
               transform: translate(0);
     }
   }
+  #tobi{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-block-start: 300px;
+  }
+  @media screen and (max-width:480px){
+    #tobi{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        margin-block-start: 0px;
+      }
+  }
 
 @keyframes color-change-2x {
     0% {
